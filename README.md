@@ -69,7 +69,7 @@ The below example is to insert a record into CassandraDB
   "name": "CassandraDB connector",
   "description": "Insert record into CassandraDB",
   "activity": {
-    "ref": "github.com/dhire05/cassandrainsertrecord",
+    "ref": "github.com/sherard-kusanagi/cassandrainsertrecord",
     "input": {
       "ClusterIP": "127.0.0.1",
 	  "ClusterPort": 9042,
