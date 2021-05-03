@@ -1,0 +1,48 @@
+{
+  "name": "CassandraInsertRecord",
+  "version": "0.0.1",
+  "type": "flogo:activity",
+  "description": "CassandraDB Connection activity to insert records ",
+  "version": "0.0.1",
+  "title": "CassandraDBInsert",  
+   "ref": "github.com/dhire05/cassandrainsertrecord",
+
+  "inputs":[
+    {
+      "name": "ClusterIP",
+      "type": "string",	  
+      "value": "127.0.0.1",
+	  "required": true
+    },
+	{
+      "name": "ClusterPort",
+      "type": "integer",	  
+      "value": 9042,
+	  "required": true
+    },
+	{	
+      "name": "Keyspace",
+      "type": "string",
+      "value": "sample",
+	  "required": true
+    },
+	{
+      "name": "TableName",
+      "type": "string",
+      "value": "employee",
+	  "required": true
+    },
+    {
+      "name": "InsertQuery",
+      "type": "string",
+      "value": "INSERT INTO employee (empid , name, salary) VALUES (102, 'xyz', 5005)",
+	  "required": true
+    }
+  ],
+  "outputs": [
+    {
+      "name": "result",
+      "type": "any"
+    }
+  ]
+}
