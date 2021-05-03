@@ -16,7 +16,7 @@
     },
 	{
       "name": "ClusterPort",
-      "type": "integer",	  
+      "type": "number",	  
       "value": 9042,
 	  "required": true
     },
