@@ -8,7 +8,7 @@ This activity allows you to Insert a record to a particular table from the Cassa
 ## Installation
 ### Flogo CLI
 ```bash
-flogo install github.com/dhire05/cassandrainsertrecord
+flogo install github.com/sherard-kusanagi/cassandrainsertrecord
 ```
 
 ## Schema
